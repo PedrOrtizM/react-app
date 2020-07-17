@@ -5,7 +5,7 @@ export const CounterApp = ()=>{
     const [counter,setCounter] = useState(10);
 
     const handleAdd = () => {
-        setCounter(counter + 1 );
+        setCounter( counter + 1 );
     }
 
 
